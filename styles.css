@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+
+
+* {   /*Reset CSS* o asteriscos engloba todosos elementos da pagina*/
+
+    margin: 0;
+    padding: 0;
+}
+
+body {  
+    
+    box-sizing: border-box; /* evitar que a imagem saia do body, ou seja, evitar que o elemento "filho" saia do elemento "pai"*/
+     height: 100vh; /* ocupar 100% do body, da tela*/
+     background-color: #000000; /*cor de fundo*/
+     color: #F6F6F6; /*cor do texto*/
+     overflow: hidden;
+     
+    
+}
+.titulo-destaque {
+    
+    color: #22D4FD
+}
+
+.apresentacao { /*tag pai main*/
+
+    margin: 5% 10% 0;; /*os blocos de textos e a imagem da página já se posicionaram mais ao centro da tela.*/
+    display: flex; /*flexbox, direção de linhas horizontal*/
+    align-items: center; /*levar os conteudos para o centro*/
+    justify-content: space-between;  /*separa o texto da imagem*/
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;  /*Ela especifica no CSS o tamanho dos espaços entre linhas e colunas em layouts de grid, flex e multi-column.*/
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 36px ;
+    font-family:'Krona One', sans-serif; /*fonte google*/
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links__link{
+    background-color: #22D4FD;
+    width: 280px;
+    text-align: center; /*alinhar o texto para o centro*/
+    border-radius: 16px; /*arredondar a borda do botão*/
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0; /*define o espaçamento do texto do botão primeiro verticalmente dps hortizontalmente*/
+    text-decoration: none; /*para remover sublinhado*/
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    margin-right: 25px;
+    
+   
+}

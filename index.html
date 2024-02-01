@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfólio - Joana</title>
+</head>
+<body>
+    <header></header>
+    <main class="apresentacao"> <!-- pai -->
+        <section class="apresentacao__conteudo"><!-- filho tem que ter nome do pai -->  <!-- texto e os botões formarm um unico bloco, a imagem esta separada. agrupar todos os elementos que você apontou, do título até os botões, e manter a imagem como um elemento de fora. -->
+            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível 
+            <strong class="titulo-destaque">com uma Front-end de qualidade</strong></h1>
+            <p class="apresentacao__conteudo__texto">Olá! Sou Joana Santos, desenvolvedora Front-end com especialidade em React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
+            <div class="apresentacao__links">  <!-- agrupamento dos botões -->
+                <a class= "apresentacao__links__link" href= "https://www.linkedin.com/in/thiago-degan-b544572b/">LinkedIn</a>
+                <a  class= "apresentacao__links__link" href="github.com/thiagodegan">GitHub</a>
+            </div>
+        </section>
+            <img src="img/Imagem.png" alt="Foto programando">
+    </main>
+    <footer></footer>
+</body>
+</html>
+
+<!-- Sobre div: Utilizamos esta tag para agrupamentos bem específicos, como no caso dos nossos botões. Não utilizamos para esses fins as tags <main> ou <section>.
+ Não é uma divisão de estrutura. Ela só aponta um agrupamento entre os elementos. E não precisam ser necessariamente botões.
+ Podemos agrupar elemelementos de texto, desde que não se enquadrem em um contexto maior.
+ Em um contexto semântico. Por exemplo: o conteúdo principal precisa de um nome: é o <main>. Se estamos trabalhando com um agrupamento de elementos que querem dizer uma coisa só, digitamos <section>.
+Já a <div> é puramente visual e serve apenas para juntar os dois botões em um lugar só, não possui valor semântico.
+A tag <div> define uma divisão em um documento HTML e costuma ser usada como um contêiner para outros elementos, o que ajuda na estilização do bloco.
+ Por esse motivo, a <div> é frequentemente utilizada quando precisamos agrupar elementos sem usar as tags semânticas do HTML. Isso acontece porque a <div> não tem valor semântico.
+ Portanto, não significa nada para os navegadores e mecanismos de pesquisa.
+Além do mais, por ser muito utilizada para agrupar elementos, acaba facilitando na organização das informações nos layouts.
+Dessa forma, pode ser formatada e manipulada organicamente via CSS. Geralmente vem acompanhado de atributos de ID e classe para facilitar essa organização e formatação 
+Documentação div https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/div-->
